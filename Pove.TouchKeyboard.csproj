@@ -44,29 +44,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="TouchKey.cs">
+    <Compile Include="Controls\TouchKey.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="TouchKey.Designer.cs">
+    <Compile Include="Controls\TouchKey.Designer.cs">
       <DependentUpon>TouchKey.cs</DependentUpon>
     </Compile>
-    <Compile Include="IKeyboard.cs" />
-    <Compile Include="IKey.cs" />
-    <Compile Include="IRow.cs" />
-    <Compile Include="TouchKeyBoard.cs">
+    <Compile Include="Objects\IKeyboard.cs" />
+    <Compile Include="Objects\IKey.cs" />
+    <Compile Include="Objects\IRow.cs" />
+    <Compile Include="Controls\TouchKeyBoard.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="TouchKeyBoard.Designer.cs">
+    <Compile Include="Controls\TouchKeyBoard.Designer.cs">
       <DependentUpon>TouchKeyBoard.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="TouchKey.resx">
+    <EmbeddedResource Include="Controls\TouchKey.resx">
       <DependentUpon>TouchKey.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="TouchKeyBoard.resx">
+    <EmbeddedResource Include="Controls\TouchKeyBoard.resx">
       <DependentUpon>TouchKeyBoard.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
